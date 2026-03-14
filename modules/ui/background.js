@@ -5,17 +5,27 @@ const images = {
     rain: "./images/rain.jpg",
     snow: "./images/snow.jpg",
     thunderstorm: "./images/thunderstorm.jpg",
-    drizzle: "./images/rain.jpg",
+    drizzle: "./images/drizzle.jpg",
 }
 
-function setBackground(condition, isDay) {
+function setBackground(condition, isDay) {  
     const body = document.body;
-    if (condition.toLowerCase() === "clear") {
-        body.style.backgroundImage = isDay
-            ? `url(${images.clearDay})`
-            : `url(${images.clearNight})`;
+    const temperature = Number(arguments[2]);
+
+    if (!isDay) {
+        body.style.backgroundImage = "url(" + images.clearNight + ")";
     } else {
-        body.style.backgroundImage = `url(${images[condition.toLowerCase()]})`;
+        if (!Number.isFinite(temperature)) {
+            body.style.backgroundImage = "url(" + images.clearDay + ")";
+        } else if (temperature >= 30) {
+            body.style.backgroundImage = "url(" + images.clearDay + ")";
+        } else if (temperature >= 15) {
+            body.style.backgroundImage = "url(" + images.clouds + ")";
+        } else if (temperature >= 10) {
+            body.style.backgroundImage = "url(" + images.rain + ")";
+        } else {
+            body.style.backgroundImage = "url(" + images.snow + ")";
+        }
     }
     body.classList.add("bg-fixed");
 }
