@@ -3,9 +3,6 @@
 > **A modern, real-time weather web application that helps users quickly check city-wise weather conditions with a clean and responsive interface.**  
 > Built to demonstrate practical frontend development skills, API integration, and user-focused UI design in a recruiter-friendly project.
 
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-View%20Project-0ea5e9?style=for-the-badge)](https://weatherpredictor-livid.vercel.app/)
-[![GitHub Repo](https://img.shields.io/badge/GitHub-Repository-111827?style=for-the-badge&logo=github)](https://github.com/BolugarlaSathvick10/Weatherapp)
-
 ---
 
 ## 📌 Project Description
