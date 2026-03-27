@@ -61,16 +61,20 @@ Official API Docs: [https://openweathermap.org/api](https://openweathermap.org/a
 
 ## 🖼️ Screenshots
 
-> Add your project screenshots here after capturing from desktop/mobile views.
+Add these files inside the `images/` folder to render screenshots on GitHub:
 
-- 📷 Home Page Placeholder  
-  `![Home Page](./images/screenshot-home.png)`
+- `images/screenshot-home.png`
+- `images/screenshot-hourly.png`
+- `images/screenshot-daily.png`
 
-- 📷 Search Result Placeholder  
-  `![Search Result](./images/screenshot-search.png)`
+### Home Screen
+![Home Screen](./images/screenshot-home.png)
 
-- 📷 Mobile View Placeholder  
-  `![Mobile View](./images/screenshot-mobile.png)`
+### Hourly Forecast Screen
+![Hourly Forecast Screen](./images/screenshot-hourly.png)
+
+### Daily Forecast Screen
+![Daily Forecast Screen](./images/screenshot-daily.png)
 
 ---
 
