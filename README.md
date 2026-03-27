@@ -59,25 +59,6 @@ Official API Docs: [https://openweathermap.org/api](https://openweathermap.org/a
 
 ---
 
-## 🖼️ Screenshots
-
-Add these files inside the `images/` folder to render screenshots on GitHub:
-
-- `images/screenshot-home.png`
-- `images/screenshot-hourly.png`
-- `images/screenshot-daily.png`
-
-### Home Screen
-![Home Screen](./images/screenshot-home.png)
-
-### Hourly Forecast Screen
-![Hourly Forecast Screen](./images/screenshot-hourly.png)
-
-### Daily Forecast Screen
-![Daily Forecast Screen](./images/screenshot-daily.png)
-
----
-
 ## ⚙️ Installation & Setup
 
 Follow these steps to run the project locally:
